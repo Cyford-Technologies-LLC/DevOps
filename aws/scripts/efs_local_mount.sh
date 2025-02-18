@@ -13,10 +13,10 @@ set -e
 # 5. Ensuring EFS is auto-mounted on reboot via /etc/fstab.
 
 # User Variables
-EFS_ID="fs-0c67b5751b94e0628"       # Replace with your EFS ID
+EFS_ID="fs-XXXXXXXXXXXXXXX"       # Replace with your EFS ID
 AWS_REGION="us-east-1"              # Replace with your AWS region
 MOUNT_POINT="/mnt/efs"              # Desired mount point
-VM_INSTANCE_ID="i-020fd6d8c8c3ade83" # Instance ID of the VM
+VM_INSTANCE_ID="i-XXXXXXXXXXXXXXX" # Instance ID of the VM
 
 # Step 1: Ensure AWS CLI is installed
 echo "[INFO] Verifying AWS CLI is installed..."
