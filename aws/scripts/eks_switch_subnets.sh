@@ -17,12 +17,12 @@ clear
 set -e
 
 # Assign input parameters directly into the script
-INSTANCE_ID="i-0bf42ad72753a97b3"   # Old Instance ID
-TARGET_SUBNET_ID="subnet-0b2d44ddc1fcc9e99"  # Subnet ID for the new instance
-AMI_ID="ami-04b4f1a9cf54c11d0"      # AMI for the instance
+INSTANCE_ID="i-XXXXXXXXXXXXXXX"   # Old Instance ID
+TARGET_SUBNET_ID="subnet-XXXXXXXXXXXXXXX"  # Subnet ID for the new instance
+AMI_ID="ami-XXXXXXXXXXXXXXX"      # AMI for the instance
 INSTANCE_TYPE="t2.micro"            # Instance type
-KEY_NAME="allen"                    # Key pair name
-SECURITY_GROUP_ID="sg-0425d2c572ecedd0d"  # Security Group ID
+KEY_NAME="tony"                    # Key pair name
+SECURITY_GROUP_ID="sg-XXXXXXXXXXXXXXX"  # Security Group ID
 
 # Verify AWS CLI is installed
 if ! [ -x "$(command -v aws)" ]; then
